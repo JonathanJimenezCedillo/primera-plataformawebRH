@@ -1,0 +1,15 @@
+
+.datos_personales{
+  text-decoration: overline;
+}
+.datos_personales label{
+  text-decoration-style:solid;
+}
+
+
+.datos_laborales{
+  background-color: red;
+}
+.documentos{
+  background-color: yellow;
+}

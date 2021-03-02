@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content-all{
+  width: 70px;
+  margin: auto;
+  perspective: 1000px;
+  position:static;
+}
+
+.content-carrucel{
+  width: 60%;
+  position: absolute;
+  animation: rotar 40s infinite linear;
+  transform-style: preserve-3d;
+  margin-top: 10px;
+}
+
+.content-carrucel figure{
+  width: 250%;
+  height: 250px;
+  overflow: hidden;
+  position: absolute;
+}
+.content-carrucel video{
+  width: 150%;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+}
+/*Creamos laS circunferecia del carrucel con las 10 imagenes*/
+.content-carrucel figure:nth-child(1){transform:rotateY(0deg)
+  translateZ(300px);
+}
+.content-carrucel figure:nth-child(2){transform:rotateY(30deg)
+  translateZ(300px);
+}
+.content-carrucel figure:nth-child(3){transform:rotateY(60deg)
+  translateZ(300px);
+}
+.content-carrucel figure:nth-child(4){transform:rotateY(90deg)
+  translateZ(300px);
+}
+.content-carrucel figure:nth-child(5){transform:rotateY(120deg)
+  translateZ(300px);
+}
+.content-carrucel figure:nth-child(6){transform:rotateY(150deg)
+  translateZ(300px);
+}
+.content-carrucel figure:nth-child(7){transform:rotateY(180deg)
+  translateZ(300px);
+}
+.content-carrucel figure:nth-child(8){transform:rotateY(210deg)
+  translateZ(300px);
+}
+.content-carrucel figure:nth-child(9){transform:rotateY(240deg)
+  translateZ(300px);
+}
+.content-carrucel figure:nth-child(10){transform:rotateY(270deg)
+  translateZ(300px);
+}
+.content-carrucel figure:nth-child(11){transform:rotateY(300deg)
+  translateZ(300px);
+}
+.content-carrucel figure:nth-child(12){transform:rotateY(330deg)
+  translateZ(300px);
+}
+
+
+
+.content-carrucel img{
+  width: 100%;
+}
+
+.content-carrucel video{
+  width: 100%;
+}
+/*Controlar la animacion*/
+@keyframes rotar {
+/*Empieza la animacion desde*/
+  from{
+    transform: rotateY(0deg);
+  }
+/*terminará la animacion*/
+  to{
+    transform: rotateY(360deg);
+  }
+}

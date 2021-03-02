@@ -1,0 +1,36 @@
+
+  .formulario{
+    width: 903px;
+    height: 17px;
+    align:center;
+    font-style: normal;
+  }
+  .divmodi{
+    width: 903px;
+    height: 17px;
+
+  }
+
+.custom-file-input ~ .custom-file-label::after{
+content: "Elegir";
+}
+
+.perfil_for{
+  width: 200000px;
+  height: 515151px;
+  top: 80%;
+  left: 90%;
+}
+.custom-file-input{
+  width: 903px;
+  height: 17px;
+  top: 5%;
+  left: 5%;
+
+}
+  .custom-file label {
+      width: 903px;
+      margin-left: 16.5%;
+      font-weight: bold;
+    }
+    

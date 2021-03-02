@@ -1,0 +1,90 @@
+
+input{
+  font-weight: bold;
+
+}
+select{
+  font-weight: bold;
+  text-align: center;
+}
+textarea{
+  font-weight: bold;
+  text-align: center;
+}
+label{
+  /*font-weight: bold;*/
+  color:black;
+  text-indent: 2px;
+  text-align: center;
+}
+  .formulario{
+    width: 903px;
+    height: 17px;
+    align:center;
+    font-style: normal;
+
+  }
+  .divmodi{
+    width: 903px;
+    height: 17px;
+
+  }
+
+.custom-file-input ~ .custom-file-label::after{
+content: "Elegir";
+}
+
+.perfil_for{
+  width: 200000px;
+  height: 515151px;
+  top: 80%;
+  left: 90%;
+}
+.custom-file-input{
+font-weight: bold;
+  background: green;
+  width: 903px;
+  height: 17px;
+  top: 5%;
+  left: 5%;
+  text-align: center;
+
+}
+
+  .custom-file label {
+      width: 903px;
+      margin-left: 16.5%;
+      font-weight: bold;
+      text-align: center;
+    }
+    .custom-file iframe {
+      position:relative;
+        width: 903px;
+        margin-left: 16.5%;
+        font-weight: bold;
+        text-align: center;
+      }
+    /*  .form-control{
+        text-align: center;
+      }
+*/
+    #label_number{
+      text-align: center;
+    }
+  #boton{
+    width:903px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 16.5%;
+  }
+  #luna{
+    width: 903px;
+    margin-left: 16.5%;
+
+  }
+  #lunas{
+    width: 903px;
+    margin-left: .5%;
+
+  }
